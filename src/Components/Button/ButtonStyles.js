@@ -1,7 +1,7 @@
 import { StyleSheet } from "aphrodite";
 
 export const styleGen = () => {
-  StyleSheet.create({
+  return StyleSheet.create({
     button: {
       border: "none",
       color: "white",
@@ -14,7 +14,7 @@ export const styleGen = () => {
       cursor: "pointer",
     },
     primary: { backgroundColor: "#008CBA" },
-    secondary: { backgroundColor: "#E7E7E7", color: "black", },
+    secondary: { backgroundColor: "#E7E7E7", color: "black" },
     success: { backgroundColor: "#4CAF50" },
     danger: { backgroundColor: "#F44336" }
   })
