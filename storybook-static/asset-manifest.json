@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.js": "./main.e433be3910f618fefb04.bundle.js",
+    "main.js.map": "./main.e433be3910f618fefb04.bundle.js.map",
+    "runtime~main.js": "./runtime~main.e433be3910f618fefb04.bundle.js",
+    "runtime~main.js.map": "./runtime~main.e433be3910f618fefb04.bundle.js.map",
+    "vendors~main.js": "./vendors~main.e433be3910f618fefb04.bundle.js",
+    "vendors~main.js.map": "./vendors~main.e433be3910f618fefb04.bundle.js.map",
+    "iframe.html": "./iframe.html",
+    "vendors~main.e433be3910f618fefb04.bundle.js.LICENSE.txt": "./vendors~main.e433be3910f618fefb04.bundle.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "runtime~main.e433be3910f618fefb04.bundle.js",
+    "vendors~main.e433be3910f618fefb04.bundle.js",
+    "main.e433be3910f618fefb04.bundle.js"
+  ]
+}
