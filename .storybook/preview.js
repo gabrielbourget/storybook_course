@@ -21,5 +21,4 @@ addDecorator(story => (
 );
 
 addDecorator((story, context) => withConsole()(story)(context));
-
 addDecorator(withA11y);

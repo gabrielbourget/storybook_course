@@ -9,5 +9,7 @@ module.exports = {
     "@storybook/preset-create-react-app",
     "@storybook/addon-console",
     "@storybook/addon-a11y",
+    "storybook-addon-designs",
+    "storybook-addon-jsx",
   ],
 }
