@@ -15,16 +15,16 @@ const Template = (props) => <Input {...props} />
 export const Small = Template.bind({});
 Small.args = {
   size: "small",
-  placeHolder: "Small Size"
+  placeholder: "Small Size"
 }
 
 export const Medium = Template.bind({});
 Medium.args = {
   size: "medium",
-  placeHolder: "Medium Size"
+  placeholder: "Medium Size"
 }
 export const Large = Template.bind({});
 Large.args = {
   size: "large",
-  placeHolder: "Large"
+  placeholder: "Large"
 }
