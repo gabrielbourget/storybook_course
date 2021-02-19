@@ -4,8 +4,6 @@ import { styleGen } from "./ButtonStyles";
 
 const Button = (props) => {
   const { children, ...rest } = props;
-  console.log("props -> ", props);
-  console.log("styles -> ", styleGen());
   const buttonStylechain = calibrateComponent(props, styleGen);
   
   return (
