@@ -1,6 +1,8 @@
 import React from "react";
 import { ThemeProvider, theme, CSSReset, Box } from "@chakra-ui/core";
-import { addDecorator } from "@storybook/react";``
+import { addDecorator } from "@storybook/react";
+import { withConsole } from "@storybook/addon-console";
+import { withA11y } from "@storybook/addon-a11y";
 
 
 export const parameters = {
@@ -17,3 +19,7 @@ addDecorator(story => (
     <Box p="4">{story()}</Box>
   </ThemeProvider>)
 );
+
+addDecorator((story, context) => withConsole()(story)(context));
+
+addDecorator(withA11y);
